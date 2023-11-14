@@ -1,0 +1,7 @@
+/* Global Styles
+Global styles can be imported into any layout, page, or component inside the app directory. */
+
+h1{
+    color: blue;
+}
+
