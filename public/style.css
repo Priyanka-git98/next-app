@@ -1,0 +1,9 @@
+/* public directory used for serving static asset,Any file placed in the public directory is served at the root level of your application. */
+/* if we have an image file named my-image.png in the public directory, we can access it directly in your application using the path '/' */
+
+
+
+
+h5{
+    color: green;
+}
