@@ -12,6 +12,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+
+        {/* static assets */}
         <link rel='stylesheet' href='/style.css'></link>
 
         {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
