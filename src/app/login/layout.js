@@ -3,7 +3,7 @@ import Link from "next/link";
 import './login.css'
 import { usePathname } from "next/navigation";
 
-
+// provides common area for all the child routes
 export default function Layout({ children }) {
     const pathName = usePathname();
     return (

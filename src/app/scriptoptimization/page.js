@@ -11,3 +11,7 @@ export default function Home() {
         </div>
     )
 }
+
+// The next/script component in Next.js is used to include external scripts in our application. It provides a way to load scripts efficiently 
+
+

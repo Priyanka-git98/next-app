@@ -11,7 +11,8 @@ export default async function Page() {
     let products = await itemList();
     return (
         <div>
-            {/* css module will enable with only .module.css extension */}
+            {/* global css applied globally to the application and css module is applied specific to the component
+            css module will enable with only .module.css extension */}
             <h2 className={custom.main}>Call API in server component/Item list</h2>
             {products.map((item) => (
                 <div>

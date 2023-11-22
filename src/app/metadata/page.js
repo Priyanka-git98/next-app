@@ -8,8 +8,9 @@ export default function page() {
 }
 
 
-
-export function generateMetadata({ params }) {
+// Next.js has a generateMetadata function that is used to define our application metadata (e.g. meta and link tags inside HTML head element) for improved SEO
+// for every page we have to write a separate generateMetadata function which returns page title and description.
+export function generateMetadata() {
     return {
         title: 'user page title',
         description: 'user page description'
